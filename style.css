@@ -1,0 +1,184 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html, body{
+	height: 100%;
+}
+body {
+	display: flex;
+	flex-direction: column;
+}
+.main {
+	flex-grow: 1;
+}
+footer {
+	height: 7vh;
+	width: 98vw;
+	background: #231f1f;
+	border: 1px solid #e0e0e0;
+	border-bottom: 0;
+	margin-left: 9px;
+	margin-right: 9px;
+}
+.calc {
+	height: 51.5vh;
+	width: 63.5vw;
+	background: #f2f2f2;
+	font-size: 14px;
+	line-height: 21px;
+	margin-left: 30px;
+	margin-top: 25px;
+	padding-top: 19px;
+}
+h1 {
+	font-size: 30px;
+	line-height: 32px;
+	color: #eb5017;
+	font-family: "Arial";
+	margin-left: 98px;
+	font-weight: normal;
+}
+nav {
+	width: 98vw;
+	background-color: #231f1f;
+	border: 1px solid #e0e0e0;
+	margin: 9px;
+}
+img {
+	margin-top: 12px;
+}
+.numbers{
+	font-size: 18px;
+	line-height: 20px;
+	color: #eb5017;
+	float: right;
+	margin-top: 40px;
+	margin-right: 22px;
+	font-family: "Europe";
+}
+ul {
+	display: table;
+}
+li {
+	display: table-cell;	
+}
+.breadcrumb{
+margin-left: 30px;
+}
+.breadcrumb li {
+	float: left;
+}
+.breadcrumb li {
+	font-size: 12px;
+	line-height: 24px;
+	color: #231f20;
+	font-family: "Arial";
+}
+.breadcrumb li a{
+	font-size: 12px;
+	line-height: 24px;
+	color: #231f20;
+	font-family: "Arial";
+}
+ul.breadcrumb li+li:before {
+  	color: black;
+ 	content: "\00a0-\00a0";
+}
+nav ul {
+	width: 100%; 
+	height: 100%; 
+	position: relative;
+	display: table;
+	margin: 0;
+	padding: 0;
+}
+nav ul li{
+	background-color: #231f1f;
+	position: relative;
+	border-right: 1px solid #eb5017;
+}
+nav ul li:last-of-type {
+	border-right: 0;
+}
+.menuhref {
+	color: #ffffff;
+	display: block;
+	position: relative;
+	width: 100%;
+	height: 100%;
+	text-align:center;
+	text-decoration: none;
+	line-height: 50px;
+	font-family: "Arial";
+	font-size: 14px;
+}
+.foterhref {
+	color: #ffffff;
+	display: block;
+	position: relative;
+	width: 100%;
+	height: 100%;
+	text-align:center;
+	font-size: 12px;
+	line-height: 21px;
+	font-family: "Arial";
+	margin-right: 25px;
+	margin-top: 12px;
+}
+label {
+	font-size: 14px;
+	line-height: 20px;
+	color: #000000;
+	font-family: "Arial";
+}
+label, input, select {
+	margin-top: 28px;
+}
+input, select {
+	margin-left: 27px;
+}
+input, select{
+	border: 1px solid rgba(168,172,173,0.47);
+	width: 120px;
+	font-size: 12px;
+	line-height: 20px;
+	color: #000000;
+}
+.inputradio{
+	width: 12px;
+}
+.radio{
+	margin-left: 9px;
+}
+.date {
+	margin-left: 26px;
+}
+.summ {
+	margin-left: 98px;
+}
+.time {
+	margin-left: 110px;
+}
+.add {
+	margin-left: 63px;
+}
+.summadd{
+	margin-left: 18px;
+}
+.button{
+	margin-top: 39px;
+	margin-left: 22px;
+	width: 100px;
+	height: 33px;
+	border-radius: 7px;
+	filter: drop-shadow(1px 1.732px 2.5px rgba(0,0,0,0.19));
+	background-image: linear-gradient(0deg, #7cc300 0%, #aff300 100%);
+	border: 1px solid #c3c4c4;
+}
+#res{
+	margin-left: 15px;
+}
+.foterul{
+	margin-left: 70px;
+}
